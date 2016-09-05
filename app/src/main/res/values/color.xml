@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="action_bar_bg">@color/color_38acff</color>
+
+    <color name="color_000000">#000000</color>
+    <color name="color_1b5992">#1B5992</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_272727">#272727</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_38acff">#38ACFF</color>
+    <color name="color_44afee">#44AFEE</color>
+    <color name="color_5f5f5f">#5F5F5F</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_929292">#929292</color>
+    <color name="color_979797">#929292</color>
+    <color name="color_b3b3b3">#B3B3B3</color>
+    <color name="color_bfcdd6">#BFCDD6</color>
+    <color name="color_dedede">#DEDEDE</color>
+    <color name="color_d3d3d3">#D3D3D3</color>
+    <color name="color_d7d7d7">#D7D7D7</color>
+    <color name="color_dfdfdf">#DFDFDF</color>
+    <color name="color_ebebeb">#EBEBEB</color>
+    <color name="color_e0e0e0">#E0E0E0</color>
+    <color name="color_eaeaea">#eaeaea</color>
+    <color name="color_f2f2f2">#F2F2F2</color>
+    <color name="color_f6f6f6">#F6F6F6</color>
+    <color name="color_f7f7f7">#F7F7F7</color>
+    <color name="color_f8f8f8">#F8F8F8</color>
+    <color name="color_f90301">#F90301</color>
+    <color name="color_ff6700">#FF6700</color>
+    <color name="color_ffffff">#FFFFFF</color>
+
+    <color name="color_00000000">#00000000</color>
+    <color name="color_60000000">#60000000</color>
+    <color name="color_66222222">#66222222</color>
+    <color name="color_99222222">#99222222</color>
+    <color name="color_b0000000">#B0000000</color>
+    <color name="color_bb000000">#BB000000</color>
+    <color name="color_c0ffff00">#C0FFFF00</color>
+</resources>

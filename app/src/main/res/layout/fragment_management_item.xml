@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luomo.shopping.widget.view.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:layout_gravity="center"
+                                             android:gravity="center"
+                                             android:background="@drawable/goods_cart_item_bg_selector">
+    <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:scaleType="center"/>
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textSize="@dimen/sp_14"
+            android:textColor="@color/color_929292"
+            android:text="商品信息"/>
+</com.luomo.shopping.widget.view.SquareLayout>

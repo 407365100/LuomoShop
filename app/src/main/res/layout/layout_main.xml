@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mainLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:background="@color/color_ffffff">
+
+    <RelativeLayout
+            android:id="@+id/rl_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/v_temp"/>
+
+    <View
+            android:id="@+id/v_temp"
+            style="@style/HorizontalSplitView0d1"
+            android:layout_marginBottom="-10dp"
+            android:layout_above="@+id/main_bottom"/>
+    <LinearLayout
+            android:id="@+id/main_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_00000000"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:id="@+id/rl_sale"
+                style="@style/MainBottomLL">
+
+            <ImageView
+                    android:id="@+id/iv_sale"
+                    style="@style/MainBottomImage"
+                    android:background="@drawable/main_sale_selector"/>
+
+            <TextView
+                    android:id="@+id/tv_sale"
+                    style="@style/MainBottomText"
+                    android:text="@string/sale"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/rl_management"
+                style="@style/MainBottomLL">
+
+            <ImageView
+                    android:id="@+id/iv_management"
+                    style="@style/MainBottomImage"
+                    android:background="@drawable/main_management_selector"/>
+
+            <TextView
+                    android:id="@+id/tv_management"
+                    style="@style/MainBottomText"
+                    android:text="@string/management"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_height="@dimen/dp_75"
+                android:gravity="center_horizontal|top"
+                style="@style/MainBottomLL">
+            <LinearLayout
+                    android:id="@+id/ll_two_code"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_70"
+                    android:gravity="center"
+                    android:background="@drawable/main_bottom_shape_ffffff"
+                    android:orientation="vertical">
+                <ImageView
+                        style="@style/MainBottomImage"
+                        android:background="@drawable/two_code_bg_selector"/>
+
+                <TextView
+                        style="@style/MainBottomText"
+                        android:text="@string/scan"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/rl_profile"
+                style="@style/MainBottomLL">
+
+            <ImageView
+                    android:id="@+id/iv_profile"
+                    style="@style/MainBottomImage"
+                    android:background="@drawable/main_profile_selector"/>
+
+            <TextView
+                    android:id="@+id/tv_profile"
+                    style="@style/MainBottomText"
+                    android:text="@string/mine"/>
+        </LinearLayout>
+        <LinearLayout
+                android:id="@+id/rl_other"
+                style="@style/MainBottomLL">
+
+            <ImageView
+                    android:id="@+id/iv_other"
+                    style="@style/MainBottomImage"
+                    android:background="@drawable/main_profile_selector"/>
+
+            <TextView
+                    android:id="@+id/tv_other"
+                    style="@style/MainBottomText"
+                    android:text="@string/mine"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
